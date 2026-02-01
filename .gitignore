@@ -1,0 +1,16 @@
+# Ignore directory with Bandit password files
+bandit_pass/
+
+# Ignore SSH/private key files
+# specific files that were accidentally committed
+bandit26.sshkey
+id_rsa_bandit16
+sshkeybandit14.private
+
+# common private key patterns
+*.pem
+*.key
+id_*
+sshkey*
+*.sshkey
+./bandit_pass
