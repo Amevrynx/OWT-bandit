@@ -1,33 +1,24 @@
 ## Access Information
 
 SSH Portal:
-ssh bandit0@bandit.labs.overthewire.org -p 2220
+ssh bandit1@bandit.labs.overthewire.org -p 2220
 
 Website:
 https://overthewire.org/wargames/bandit/
 
-Password for each level is stored inside the current level and used to log into the next.
-
-Example:
-ssh bandit1@bandit.labs.overthewire.org -p 2220
-
 ---
 
 
-## Level 0 → 1
+## Level 1 → 2
 
 ### Objective
 Log in via SSH and retrieve the password for the next level.
 
-Password for the `bandit0` login is `bandit0`
-
-### Enumeration
-After login, list files in the home directory.
 
 ### Steps to solve
 ```bash
 ls
-cat readme
+cat ./-
 ```
 ---
 <img src="image.png">
@@ -36,8 +27,13 @@ cat readme
 
 ### explanation
 
-```bash
-ls  -> lists all subfiles and folders in that directory
-cat -> displays the file content in the terminal itself
-```
+- `ls`  lists the subfiles
+- in this exercise the file itself is named `-` which gets treated as a command/execution flag like in `ls -la`
+- so using `cat` like `cat ./-` allows it to treat it like an individual file instead of a flag
+
+### explanation
+
+- `ls` lists files in the directory
+- in this exercise the file itself is named `-` which can be interpreted as an option/flag by commands (e.g., `ls -la`)
+- to read a file named `-` use `cat ./-` or `cat -- -` so the filename is treated as a pathname instead of an option
 ---

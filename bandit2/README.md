@@ -1,20 +1,17 @@
 ## Access Information
 
 SSH Portal:
-ssh bandit1@bandit.labs.overthewire.org -p 2220
+ssh bandit2@bandit.labs.overthewire.org -p 2220
 
 Website:
 https://overthewire.org/wargames/bandit/
 
 ---
 
-
-## Level 0 → 1
+## Level 1 → 2
 
 ### Objective
 Log in via SSH and retrieve the password for the next level.
-
-Password for the `bandit0` login is `bandit0`
 
 ### Enumeration
 After login, list files in the home directory.
@@ -22,22 +19,17 @@ After login, list files in the home directory.
 ### Steps to solve
 ```bash
 ls
-cat readme
+cat ./"--spaces in the filename" 
+        or
+cat < "--space in the filename"
 ```
----
-<img src="image.png">
 
 ---
 
-### explanation
+<img src="image.png" alt="level-1-banner">
 
-- `ls`  lists the subfiles
-- in this exercise the file itself is named `-` which gets treated as a command/execution flag like in `ls -la`
-- so using `cat` like `cat ./-` allows it to treat it like an individual file instead of a flag
+### Explanation
 
-### explanation
+- `ls` lists files in the directory.
+- The file containing the password is named `-`, which some commands interpret as an option/flag.
 
-- `ls` lists files in the directory
-- in this exercise the file itself is named `-` which can be interpreted as an option/flag by commands (e.g., `ls -la`)
-- to read a file named `-` use `cat ./-` or `cat -- -` so the filename is treated as a pathname instead of an option
----
