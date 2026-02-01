@@ -1,43 +1,42 @@
 ---
-layout: default
-title: Bandit Wargame Walkthroughs
----
-
-# Bandit Wargame — Walkthroughs
-
-This site renders the documented Bandit levels. Use the links below to navigate each level's walkthrough.
-
 ## Levels
 
-- [bandit0](../bandit0/README.md)
-- [bandit1](../bandit1/README.md)
-- [bandit2](../bandit2/README.md)
-- [bandit3](../bandit3/README.md)
-- [bandit4](../bandit4/README.md)
-- [bandit5](../bandit5/README.md)
-- [bandit6](../bandit6/README.md)
-- [bandit7](../bandit7/README.md)
-- [bandit8](../bandit8/README.md)
-- [bandit9](../bandit9/README.md)
-- [bandit10](../bandit10/README.md)
-- [bandit11](../bandit11/README.md)
-- [bandit12](../bandit12/README.md)
-- [bandit13](../bandit13/README.md)
-- [bandit14](../bandit14/README.md)
-- [bandit15](../bandit15/README.md)
-- [bandit16](../bandit16/README.md)
-- [bandit17](../bandit17/README.md)
-- [bandit18](../bandit18/README.md)
-- [bandit19](../bandit19/README.md)
-- [bandit20](../bandit20/README.md)
-- [bandit21](../bandit21/README.md)
-- [bandit22](../bandit22/README.md)
-- [bandit23](../bandit23/README.md)
-- [bandit24](../bandit24/README.md)
-- [bandit25](../bandit25/README.md)
-- [bandit26](../bandit26/README.md)
-- [bandit27](../bandit27/README.md)
-- [bandit28](../bandit28/README.md)
+Direct links to each level's rendered page:
+
+- [bandit0](levels/bandit0/)
+- [bandit1](levels/bandit1/)
+- [bandit2](levels/bandit2/)
+- [bandit3](levels/bandit3/)
+- [bandit4](levels/bandit4/)
+- [bandit5](levels/bandit5/)
+- [bandit6](levels/bandit6/)
+- [bandit7](levels/bandit7/)
+- [bandit8](levels/bandit8/)
+- [bandit9](levels/bandit9/)
+- [bandit10](levels/bandit10/)
+- [bandit11](levels/bandit11/)
+- [bandit12](levels/bandit12/)
+- [bandit13](levels/bandit13/)
+- [bandit14](levels/bandit14/)
+- [bandit15](levels/bandit15/)
+- [bandit16](levels/bandit16/)
+- [bandit17](levels/bandit17/)
+- [bandit18](levels/bandit18/)
+- [bandit19](levels/bandit19/)
+- [bandit20](levels/bandit20/)
+- [bandit21](levels/bandit21/)
+- [bandit22](levels/bandit22/)
+- [bandit23](levels/bandit23/)
+- [bandit24](levels/bandit24/)
+- [bandit25](levels/bandit25/)
+- [bandit26](levels/bandit26/)
+- [bandit27](levels/bandit27/)
+- [bandit28](levels/bandit28/)
+- [bandit29](levels/bandit29/)
+- [bandit30](levels/bandit30/)
+- [bandit31](levels/bandit31/)
+- [bandit32](levels/bandit32/)
+- [bandit33](levels/bandit33/)
 - [bandit29](../bandit29/README.md)
 - [bandit30](../bandit30/README.md)
 - [bandit31](../bandit31/README.md)
@@ -45,8 +44,3 @@ This site renders the documented Bandit levels. Use the links below to navigate 
 - [bandit33](../bandit33/README.md)
 
 ---
-
-## Notes
-
-- This site uses Jekyll (GitHub Pages). To publish, enable GitHub Pages on this repository and choose `main` branch `/docs` folder as the source.
-- If you prefer automatic builds, you can add a GitHub Actions workflow to build and deploy, but GitHub Pages will render Markdown files directly using Jekyll.
