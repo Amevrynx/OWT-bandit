@@ -1,7 +1,7 @@
 ## Access Information
 
 SSH Portal:
-ssh bandit19@bandit.labs.overthewire.org -p 2220
+ssh bandit20@bandit.labs.overthewire.org -p 2220
 
 Website:
 https://overthewire.org/wargames/bandit/
@@ -10,7 +10,7 @@ Password for each level is stored inside the current level and used to log into 
 
 ---
 
-## Level 18 → 19
+## Level 20 → 21
 
 ### Steps to solve
 ```bash

@@ -18,6 +18,7 @@ nmap -p 31000-32000 localhost
 cat /etc/bandit_pass/bandit15 | openssl s_client -connect localhost:31046
 
 you can repeat the same for all shown ports
+then use the RSA key provided to login to the next level
 ```
 ---
 <img src="image.png">
