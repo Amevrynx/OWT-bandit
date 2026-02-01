@@ -106,3 +106,5 @@ Direct links to each level's README:
 
 All challenges are solved manually before documentation.  
 Passwords and sensitive data are excluded from version control.
+
+you can view the detailed docs <a href="https://amevrynx.github.io/OTW-bandit">here</a>
